@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = Alexander Mills
+	email = atmills@umich.edu
+[core]
+	excludesfile = /Users/alexander/.gitignore_global
+[color]
+	ui = true
